@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right, #0f444c, #1cc179); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #F5F5F5;
+    font-size: 50px;
+}
+
+table {
+    margin: auto;
+}
+
+th {
+    color: #d2e1cc;
+    font-size: x-large;
+}
+
+input {
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button {
+    min-width: 120px;
+    margin: 20px 10px;
+    padding: 15px;
+    font-size: 30px;
+    background-color: #1cc179;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    color: #e8efe8;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.time {
+    background-color: #62d7ba;
+    color: #FFFFFF;
+    font-size: 110px;
+    width: 150px;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 0.2em;
+}
+
+#countdown-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px 0;
+}
+
+#countdown-container div {
+    text-align: center;
+}
+
+/* Countdown values styling */
+h2 {
+    font-size: 2.0em;
+    margin: 1;
+    position: relative;
+    white-space: nowrap; 
+    padding-right: 10px; 
+}
+
+/* Styling for progress bar container */
+.progress-container {
+    background-color: #f4f5f4;
+    width: 35%; /* Adjust width as needed */
+    height: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative; /* Ensures the progress bar fills from left to right */
+}
+
+/* Progress bar itself */
+#progress-bar {
+    background: #62d7ba;
+    width: 0%; /* Start with 0% width */
+    transition: width 1s ease-in-out; 
+    border-radius: 5px;
+    height: 80%;
+}
+
